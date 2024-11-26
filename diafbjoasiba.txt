@@ -1,4 +1,5 @@
 pDiTXYYLRmmhtog5oV-Uqw
+docker exec -it kafka kafka-storage format --ignore-formatted --cluster-id="pDiTXYYLRmmhtog5oV-Uqw" --config /etc/kafka/kafka.properties
 
 version: '3.8'
 services:
